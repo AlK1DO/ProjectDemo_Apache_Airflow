@@ -35,7 +35,7 @@ whatsapp_agent/
 │   └── airflow.db
 ├── src/
 │   └── whatsapp_agent/
-│       ├── __main__.py         ← Automated WhatsApp bot (Playwright)
+│       ├── __main__.py        
 │       └── __init__.py
 ├── tests/
 ├── README.md
