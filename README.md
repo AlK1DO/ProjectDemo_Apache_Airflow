@@ -1,19 +1,16 @@
 # 🚀 Demo Project: Automation with Apache Airflow 
 This repository is a practical demonstration of how to use Apache Airflow as a task orchestration platform.
 It includes an automated workflow that integrates Airflow with a bot built using Playwright, capable of interacting with WhatsApp Web.
-
 The project runs entirely inside WSL + Ubuntu 22.04, using PDM for environment and dependency management.
 
 # 📌 What is Apache Airflow?
 Apache Airflow is a platform used to schedule, build, and monitor workflows.
-
 It allows you to:
 - 🕒 Schedule tasks (similar to cron jobs)
 - 🔗 Chain tasks with dependencies
 - 📊 View execution logs and task status
 - 🔄 Automatically retry failed tasks
 - 🖥 Access a comprehensive web-based interface
-
 
 # Requirements
 To run this demo project, you need the following environment:

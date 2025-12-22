@@ -1,11 +1,11 @@
 [project]
-name = "whatsapp_agent"
-version = "0.2.2"
+name = "workflows"
+version = "0.1.0"
 description = "Default template for PDM package"
 authors = [
-    {name = "Aikido", email = "180811995+AlK1DO@users.noreply.github.com"},
+    {name = "AIK1DO", email = "alk1do@users.noreply.github.com"},
 ]
-dependencies = ["playwright>=1.56.0", "python-dotenv>=1.2.1"]
+dependencies = ["apache-airflow==2.7.2", "whatsapp-bot @ git+https://github.com/AlK1DO/WhatsApp_bot.git"]
 requires-python = ">=3.12"
 readme = "README.md"
 license = {text = "MIT"}
@@ -14,6 +14,9 @@ license = {text = "MIT"}
 requires = ["pdm-backend"]
 build-backend = "pdm.backend"
 
-
 [tool.pdm]
 distribution = true
+
+[tool.mypy.overrides]
+module = ["flask_appbuilder.*"]
+ignore_missing_imports = true

@@ -30,8 +30,7 @@ airflow-webserver.err
 airflow-scheduler.pid
 airflow-scheduler.out
 airflow-scheduler.err
-airflow/webserver_config.py
-webserver_config.py
+
 
 logs/
 dags/__pycache__/
