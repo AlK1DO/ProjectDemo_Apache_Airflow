@@ -38,7 +38,6 @@ whatsapp_agent/
 │       ├── __main__.py         ← Automated WhatsApp bot (Playwright)
 │       └── __init__.py
 ├── tests/
-├── example.env     ← Environment variables for the bot
 ├── README.md
 └── pdm.lock
 └── pyproject.toml
